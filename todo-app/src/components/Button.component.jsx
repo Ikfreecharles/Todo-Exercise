@@ -1,4 +1,5 @@
 import "./Button.styles.css";
+
 export const ButtonComponent = ({ submitTodo, type, backgroundColor, children }) => {
 
   return (
@@ -7,4 +8,6 @@ export const ButtonComponent = ({ submitTodo, type, backgroundColor, children })
       {children}
     </button>
   );
+
+
 };
