@@ -1,17 +1,10 @@
 import "./Button.styles.css";
-import addIcon from "../Assets/add-icon.png";
-export const ButtonComponent = (props) => {
-  const { submitTodo } = props;
-
-  const buttonStyle = {
-    width: "20px",
-  };
+export const ButtonComponent = ({ submitTodo, type, backgroundColor, children }) => {
 
   return (
-    <>
-      <button onClick={submitTodo}>
-        <img src={addIcon} style={buttonStyle} />
-      </button>
-    </>
+    <button onClick={submitTodo} type={type} style=
+    {{backgroundColor:backgroundColor}}>
+      {children}
+    </button>
   );
 };

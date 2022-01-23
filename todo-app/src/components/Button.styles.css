@@ -1,7 +1,7 @@
 button {
-   border: none;
-   background: blueviolet;
- 
+  background-color: blueviolet;
+  padding: 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
 }
-
-
