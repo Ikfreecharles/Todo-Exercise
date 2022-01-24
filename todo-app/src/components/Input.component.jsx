@@ -1,9 +1,20 @@
 import React from "react";
-import { ButtonComponent } from "./Button.component";
-import InputStyle from "../components/Input.style.css"
+import "./Input.style.css";
 
-export const InputComponent = () => {
+export const InputComponent = ({
+  type,
+  name,
+  placeholder,
+  value,
+  handleChange,
+}) => {
   return (
-  <input type="text" name="" placeholder="Add your new todo" />
+    <input
+      type={type}
+      name={name}
+      value={value}
+      onChange={handleChange}
+      placeholder={placeholder ? placeholder : "Add your todo"}
+    />
   );
 };

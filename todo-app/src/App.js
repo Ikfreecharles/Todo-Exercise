@@ -1,14 +1,14 @@
 import "./App.css";
-import { Home } from "./pages/Home";
-
+import { AddTodo } from "./pages/AddTodo";
+import { ListTodo } from "./pages/ListTodo";
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <AddTodo />
+      <ListTodo />
     </div>
   );
-
 }
 
 export default App;

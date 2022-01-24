@@ -1,7 +1,12 @@
 li {
   list-style: none;
-  padding: 0.8rem;
+  display: flex;
+  justify-content: space-between;
   background: gray;
   margin-bottom: 0.5rem;
   background-color: rgb(240, 240, 240);
+}
+
+span {
+  padding: 0.8rem;
 }
