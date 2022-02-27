@@ -3,4 +3,7 @@ button {
   padding: 1rem;
   color: #fff;
  border-top-right-radius: none;
+  border: none;
+  border-radius: 5px;
+
 }

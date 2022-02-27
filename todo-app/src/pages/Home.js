@@ -1,5 +1,6 @@
 import React from "react";
 import { ButtonComponent } from "../components/Button.component";
+
 import { InputComponent } from "../components/Input.component";
 import { ListComponent } from "../components/List.component";
 
@@ -12,4 +13,5 @@ export const Home = () => {
       <ButtonComponent backgroundColor='purple'> Clear All </ButtonComponent>
     </div>
   );
+
 };
