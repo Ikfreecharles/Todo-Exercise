@@ -1,8 +1,6 @@
 import "./Button.styles.css";
 
 
-
-
 export const ButtonComponent = ({
   submitTodo,
   type,
