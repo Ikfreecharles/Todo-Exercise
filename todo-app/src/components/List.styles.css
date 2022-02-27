@@ -1,7 +1,20 @@
+.list_container {
+  width: 100%;
+  display: flex;
+  margin: 1rem 0 1rem 0;
+  align-items: center;
+}
+
 li {
   list-style: none;
-  padding: 0.8rem;
+  padding: 0.6rem 7.3rem 0.6rem 0.6rem;
+  text-align: center;
   background: gray;
-  margin-bottom: 0.5rem;
   background-color: rgb(240, 240, 240);
+}
+
+img {
+  object-fit: cover;
+  width: 1rem;
+  height: auto;
 }

@@ -4,4 +4,5 @@ button {
   color: #fff;
   border: none;
   border-radius: 5px;
+ border-top-right-radius: none;
 }

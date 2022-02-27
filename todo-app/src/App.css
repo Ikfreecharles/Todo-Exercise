@@ -1,0 +1,15 @@
+.App {
+  background: gray;
+  width: 30vw;
+  height: auto;
+  display: grid;
+  margin: 4rem auto;
+  padding: 2rem;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 420px) {
+  .App {
+    width: 70vw;
+    height: auto;
+  }
+}

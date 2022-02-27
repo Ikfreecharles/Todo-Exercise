@@ -5,12 +5,11 @@ import { ListComponent } from "../components/List.component";
 
 export const Home = () => {
   return (
-    <div>
+    <div className="app">
       <h1>Todo App</h1>
       <InputComponent />
       <ListComponent />
-
-      <ButtonComponent backgroundColor='#000'> Home Button </ButtonComponent>
+      <ButtonComponent backgroundColor='purple'> Clear All </ButtonComponent>
     </div>
   );
 };
