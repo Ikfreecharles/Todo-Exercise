@@ -1,5 +1,5 @@
 
-import "../components/Button.style.css";
+import "../components/Button.styles.css";
 
 export const ButtonComponent = ({
   submitTodo,
