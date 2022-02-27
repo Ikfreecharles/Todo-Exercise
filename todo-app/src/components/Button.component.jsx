@@ -1,4 +1,4 @@
-import "./Button.styles.css";
+import "../components/Button.style.css";
 
 
 export const ButtonComponent = ({
